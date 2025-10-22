@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    width: 100%;
+    display: inline;
+    background: #FFF;
+    border-radius: 15px;
+    height: 100vh;
+    background-color: #9ADDC2;
+  }
+  
+  header {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    color: #fff;
+    padding: 20px;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  nav {
+  text-align: left;
+  background-color: white;
+  padding: 1px;
+  border: 1px solid black;
+  color: #fff;
+  text-decoration: none;
+  width: 1400;
+  height: 50px;
+  }
+  
+  .hteks  {
+    color: black;
+    font-size: 30px;
+    font-family: serif;
+  }
+  
+  .nteks {
+    color: black;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  .nteks2 {
+    color: black;
+    text-align: right;
+    margin-left: 1155px;
+    font-size: 30px;
+  }
+  
+  section {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    float: left; 
+  }
+  
+  aside {
+    background-color: white;
+    border: 1px solid black;
+    width: 1119px;
+    height: 500px;
+    float: left; 
+  }
+  
+  h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    font-family: serif;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+  
+  .Data {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: medium;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  footer {
+    background-color: white;
+    border: 1px solid black;
+    width: 1450px;
+    height: 50px;
+    margin-top: 500px;
+  }
+
+  .software {
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .contact {
+    margin-left: 1000px;
+    font-size: 20px;
+  }

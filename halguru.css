@@ -1,0 +1,102 @@
+body {
+    display: grid;
+    width: 100%;
+    display: inline;
+    background: #FFF;
+    border-radius: 15px;
+    height: 100vh;
+    background-color: #9ADDC2;
+  }
+  
+  header {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    color: #fff;
+    padding: 20px;
+    width: 502px;
+  }
+  
+  nav {
+  text-align: left;
+  background-color: white;
+  padding: 1px;
+  border: 1px solid black;
+  color: #fff;
+  text-decoration: none;
+  width: 540px;
+  }
+  
+  .hteks  {
+    color: black;
+    font-size: 20px;
+    font-family: serif;
+  }
+  
+  .nteks {
+    color: black;
+    margin-left: 5px;
+  }
+  
+  .nteks2 {
+    color: black;
+    text-align: right;
+    margin-left: 420px;
+  }
+  
+  section {
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    float: left; 
+  }
+  
+  aside {
+    background-color: white;
+    border: 1px solid black;
+    width: 340px;
+    height: 300px;
+    float: left; 
+  }
+  
+  h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    font-family: serif;
+  }
+  
+  img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+  
+  .Data {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  footer {background-color: white;
+    border: 1px solid black;
+    width: 543px;
+  }
+
+  .software {
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .contact {
+    margin-left: 200px;
+  }
