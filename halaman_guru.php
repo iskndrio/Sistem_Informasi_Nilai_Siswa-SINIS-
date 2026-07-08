@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username']) || ($_SESSION['level'] ?? '') !== 'guru') {
+  header("Location:index.php");
+  exit;
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,16 +19,16 @@
     <p class="hteks">SISTEM INFORMASI NILAI SISWA</p>
   </header>
   <nav>
-  <label for="nteks" class="nteks">:Guru</label> <label for="Logout" class="nteks2"><a href="hallogin.html">Logout</a></label>
+  <label for="nteks" class="nteks">:Guru</label> <label for="Logout" class="nteks2"><a href="logout.php">Logout</a></label>
   </nav>
   <section>
     <img src="my honest reaction.jfif" alt="">
-    <p class="Data">
-    <li><a href="tabledatanilai.php">Data Nilai</a></li>
-    <li><a href="tabledatamapel.php">Data Mapel</a></li>
-    <li><a href="tabledatakelas.php">Data Kelas</a></li>
-    <li><a href="tabledatajurusan.php">Data Jurusan</a></li>
-    </p>
+    <ul class="Data">
+      <li><a href="tabledatanilai.php">Data Nilai</a></li>
+      <li><a href="tabledatasiswa.php">Data Siswa</a></li>
+      <li><a href="tabledatamapel.php">Data Mapel</a></li>
+      <li><a href="tabledatajurusan.php">Data Jurusan</a></li>
+    </ul>
   </section>
   <aside>
     <h1>WELCOME TO GURU PAGE</h1>

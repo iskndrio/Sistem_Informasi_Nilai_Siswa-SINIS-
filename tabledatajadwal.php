@@ -21,19 +21,9 @@
           <td>$tampil[jadwal]</td>
           
           <td><a href='halaman_admin.php?page=hapusjadwal&id=$tampil[id]'>Hapus</a></td>
-          <td><a href='halaman_admin.php?page=editjadwal&id=$tampil[id]'>Edit</a></td
+          <td><a href='halaman_admin.php?page=editjadwal&id=$tampil[id]'>Edit</a></td>
         </tr>";
         $no++;
     }
     ?>
 </table>
-
-<?php
-if(isset($_GET['kode'])){
-
-    mysqli_query($koneksi,"delete from data_jadwal where id='$_GET[id]'");
-
-    echo "Data telah terhapus";
-    echo "<meta http-equiv=refresh content=2;URL='dbjadwal.php'>";
-}
-?>

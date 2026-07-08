@@ -1,8 +1,9 @@
+<?php ob_start(); ?>
 <form action="" method="post">
     <table>
         <tr>
-            <td>Id_ruang</td>
-            <td><input type="text" name="id_ruang"></td>
+            <td>Id Kelas</td>
+            <td><input type="text" name="id_kelas"></td>
         </tr>
         <tr>
             <td>ruang</td>
@@ -20,7 +21,7 @@ include "koneksi.php";
 
 if (isset($_POST['proses'])) {
     mysqli_query($koneksi,"insert into data_ruang set
-    id_ruang = '$_POST[id_ruang]',
+    id_kelas = '$_POST[id_kelas]',
     ruang = '$_POST[ruang]'");
 
     header("Location:halaman_admin.php?page=dataruang");
